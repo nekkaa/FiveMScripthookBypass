@@ -71,14 +71,13 @@ auto main ( ) -> int
 
 	while ( true )
 	{
-		fivemprocess.WriteVirtualMemory<bool>(
-			picoregameinit + 0x8, true );
-
 		fivemprocess.WriteVirtualMemory<FirstPair>(
 			pfirst_pair, first_pair );
 
 		fivemprocess.WriteVirtualMemory<SecondPair>(
 			psecond_pair, second_pair );
+		fivemprocess.WriteVirtualMemory<bool>(
+			picoregameinit + 0x8, true );
 
 		Sleep( 1 );
 	}
