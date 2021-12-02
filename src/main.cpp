@@ -4,7 +4,7 @@
 
 auto main ( ) -> int
 {
-	SetConsoleTitleA( "FiveM Scripthook Bypass - unknowncheats.me" );
+	SetConsoleTitleA( "Nekka's FiveM Scripthook Bypass - unknowncheats.me" );
 
 	auto fivemprocess = Process( "GTAProcess.exe", PROCESS_ALL_ACCESS );
 
