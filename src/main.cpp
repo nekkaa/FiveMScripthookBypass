@@ -76,6 +76,7 @@ auto main ( ) -> int
 
 		fivemprocess.WriteVirtualMemory<SecondPair>(
 			psecond_pair, second_pair );
+			
 		fivemprocess.WriteVirtualMemory<bool>(
 			picoregameinit + 0x8, true );
 
