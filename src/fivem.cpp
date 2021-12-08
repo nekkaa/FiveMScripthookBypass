@@ -6,7 +6,7 @@ auto fivem::GetFirstPair ( Process* target ) -> uint64_t
 		target->GetModuleBase( "adhesive.dll" );
 
 	if ( adhesivemodule )
-		return adhesivemodule + 0x292F7FC;
+		return adhesivemodule + 0x28F24F0;
 
 	return NULL;
 }
@@ -17,7 +17,7 @@ auto fivem::GetSecondPair ( Process* target ) -> uint64_t
 		target->GetModuleBase( "adhesive.dll" );
 
 	if ( adhesivemodule )
-		return adhesivemodule + 0x292F178;
+		return adhesivemodule + 0x28F2B7F;
 
 	return NULL;
 }
@@ -28,7 +28,7 @@ auto fivem::GetICoreGameInit ( Process* target ) -> uint64_t
 		target->GetModuleBase( "gta-core-five.dll" );
 
 	if ( gtacoremodule )
-		return gtacoremodule + 0xEFE98;
+		return gtacoremodule + 0xEFEA8;
 
 	return NULL;
 }
