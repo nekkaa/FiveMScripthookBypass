@@ -14,14 +14,14 @@ namespace fivem
 struct FirstPair
 {
 	uint8_t second;
-	uint8_t pad[0x723];
+	uint8_t pad[0x90B];
 	uint8_t first;
 };
 
 struct SecondPair
 {
 	uint8_t first;
-	uint8_t pad[0x653];
+	uint8_t pad[0x24C];
 	uint8_t second;
 };
 
